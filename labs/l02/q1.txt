@@ -1,0 +1,6 @@
+ls -la
+
+1. File type
+2. File permissions for users & groups
+3. File size
+4. Root working directory & one directory above

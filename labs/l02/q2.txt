@@ -1,0 +1,6 @@
+cd - Change directory
+rm - Remove file
+mkdir - Make a directory
+rmdir - Remove a directory
+head - First 10 items in a file
+tail - Last 10 items in a file
