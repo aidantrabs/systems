@@ -7,8 +7,6 @@ Email: trab5590@mylaurier.ca
 **/
 
 #include <stdio.h>
-#include <ctype.h>
-#include <stdbool.h>
 
 #define MAX_SIZE 15
 
@@ -23,7 +21,7 @@ int main() {
         return 1;
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i < n; i++) {
         x[i][0] = 1;
         x[i][i] = 1;
     }
