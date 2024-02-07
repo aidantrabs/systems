@@ -1,0 +1,4 @@
+cat: non_existent_file.txt: No such file or directory
+grep: unrecognized option '--invalid-option'
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
