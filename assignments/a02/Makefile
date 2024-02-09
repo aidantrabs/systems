@@ -12,9 +12,10 @@ ticket: shell.c
 
 clean:
 	rm -f $(TARGET) *.o *~ *.bak
+	rm -rf *.dSYM
 
 runwordcount:
-	./word_count input2.txt
+	./word_count
 
 runshell:
 	./shell
