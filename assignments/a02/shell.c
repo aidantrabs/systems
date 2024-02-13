@@ -29,8 +29,8 @@ int shell() {
 
     while (running) {
         i = 0;
-        printf("myshell> ");
         fflush(stdout);
+        printf("myshell> ");
         
         if (fgets(input, BUFSIZ, stdin) == NULL) {
             printf("Error: Can't read input\n");
