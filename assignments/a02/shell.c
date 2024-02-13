@@ -17,7 +17,6 @@ int shell();
 
 int main() {
     shell();
-
     return 0;
 }
 
@@ -26,9 +25,10 @@ int shell() {
     char input[BUFSIZ];
     char *command;
     char *args[BUFSIZ / 2];
-    int i = 0;
+    int i;
 
     while (running) {
+        i = 0;
         printf("myshell> ");
         fflush(stdout);
         
@@ -59,7 +59,7 @@ int shell() {
         if (fork() == 0) {
             execvp(args[0], args);
             printf("Error: Command doesn't exist or run\n");
-            return 1;
+            exit(EXIT_FAILURE);
         }
 
         wait(NULL);
