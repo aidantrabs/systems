@@ -59,11 +59,11 @@ int shell() {
         if (fork() == 0) {
             execvp(args[0], args);
             printf("Error: Command doesn't exist or run\n");
-            exit(EXIT_FAILURE);
+            return 1;
         }
 
         wait(NULL);
     }
 
-    return 1;
+    return 0;
 }
