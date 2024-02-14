@@ -17,7 +17,6 @@ int shell();
 
 int main() {
     shell();
-
     return 0;
 }
 
@@ -26,11 +25,12 @@ int shell() {
     char input[BUFSIZ];
     char *command;
     char *args[BUFSIZ / 2];
-    int i = 0;
+    int i;
 
     while (running) {
-        printf("myshell> ");
+        i = 0;
         fflush(stdout);
+        printf("myshell> ");
         
         if (fgets(input, BUFSIZ, stdin) == NULL) {
             printf("Error: Can't read input\n");
@@ -59,7 +59,7 @@ int shell() {
         if (fork() == 0) {
             execvp(args[0], args);
             printf("Error: Command doesn't exist or run\n");
-            return 1;
+            exit(EXIT_FAILURE);
         }
 
         wait(NULL);

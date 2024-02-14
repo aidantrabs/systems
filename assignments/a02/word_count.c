@@ -34,7 +34,7 @@ int main() {
         }
     }
    
-    printf("\nGood bye\n");
+    printf("Good bye\n");
 
     return 0;
 }
@@ -76,7 +76,7 @@ void file_handler(char *filename) {
 
     printf("\nNumber of lines of %s: %d\n", filename, lines);
     printf("Number of words of %s: %d\n", filename, words);
-    printf("Average number of words per line of %s: %.2f\n\n", filename, avg);
+    printf("Average number of words per line of %s: %.2f\n", filename, avg);
     
     fclose(file);
 }
