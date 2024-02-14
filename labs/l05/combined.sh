@@ -1,0 +1,1 @@
+sed -f newwrap.sed -f p.sed input.txt >> output.txt
