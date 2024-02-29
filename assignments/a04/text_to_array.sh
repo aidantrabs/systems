@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# File: text_to_array.sh
 
 if [ -z "$1" ]; then
     echo "Usage: ./text_to_array.sh <filename>"
