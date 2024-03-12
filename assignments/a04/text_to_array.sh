@@ -18,7 +18,7 @@ word=""
 for (( i=0; i<${#file_data}; i++ )); do
     char=${file_data:$i:1}
 
-    if [[ "$char" == " " || "$char" == "-" || "$i" -eq $((${#file_data}-1)) ]]; then
+    if [[ "$char" == " " || "$char" == "-" ]]; then
         if [[ -n "$word" ]]; then
             words+=("$word")
             word=""
@@ -28,8 +28,8 @@ for (( i=0; i<${#file_data}; i++ )); do
     fi
 done
 
-if [[ -n "$current_word" ]]; then
-    words+=("$current_word")
+if [[ -n "$word" ]]; then
+    words+=("$word")
 fi
 
 echo "Array elements:"
