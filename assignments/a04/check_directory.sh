@@ -1,23 +1,20 @@
 #!/usr/bin/env bash
 # File: check_directory.sh
 
-if [ $# -eq 0 ]; then
-    echo "Usage: $0 <directory> [extension]"
+if [ -z "$1" ]; then
+    echo "Usage: ./check_directory.sh <directory> [extension]"
     exit 1
 fi
 
-directory=$1
-extension=$2
-
-if [ ! -d "$directory" ]; then
-    echo "Error: Directory '$directory' does not exist."
+if [ ! -d "$1" ]; then
+    echo "Error: Directory '$1' does not exist."
     exit 1
 fi
 
-if [ -z "$extension" ]; then
-    count=$(find "$directory" -type f | wc -l)
-    echo "Number of regular files in directory '$directory': $count"
+if [ -z "$2" ]; then
+    count=$(find "$1" -type f | wc -l)
+    echo "Number of regular files in directory '$1': $count"
 else
-    count=$(find "$directory" -type f -name "*.$extension" | wc -l)
-    echo "Number of regular files in directory '$directory': $count"
+    count=$(find "$1" -type f -name "*.$2" | wc -l)
+    echo "Number of regular files in directory '$1': $count"
 fi
