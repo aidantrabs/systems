@@ -11,18 +11,28 @@ if [ ! -f "$1" ]; then
     exit 1
 fi
 
-array=()
-while IFS= read -r line || [[ -n "$line" ]]; do
-    for word in $line; do
-        word=${word//[[:punct:]]/}
-        if [ -n "$word" ]; then
-            array+=("$word")
-        fi
-    done
-done < "$1"
+file_data=$(cat "$1" | tr -d '.,')
+words=()
+word=""
 
-echo "Array elements:"
-for word in "${array[@]}"; do
-    echo "$word"
+for (( i=0; i<${#file_data}; i++ )); do
+    char=${file_data:$i:1}
+
+    if [[ "$char" == " " || "$char" == "-" || "$i" -eq $((${#file_data}-1)) ]]; then
+        if [[ -n "$word" ]]; then
+            words+=("$word")
+            word=""
+        fi
+    else
+        word+="$char"
+    fi
 done
 
+if [[ -n "$current_word" ]]; then
+    words+=("$current_word")
+fi
+
+echo "Array elements:"
+for curr_word in "${words[@]}"; do
+    echo "$curr_word"
+done
