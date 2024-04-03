@@ -1,3 +1,7 @@
 This is my first commit
 This is my second commit
+<<<<<<< HEAD
 I AM CAUSING THE CONFLICT HERE
+=======
+I AM CAUSING A CONFLICT IDK WHY
+>>>>>>> merge-conflict
