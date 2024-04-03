@@ -1,0 +1,285 @@
+CONFLICT:
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../l08/task1.sh
+	output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+RESOLUTION:
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../l08/task1.sh
+	output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+TREE:
+*   commit 7ef9ffa2dcd12d331dfbcc1eab5000c5e6c3bbed
+|\  Merge: 307e637 284d342
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Wed Apr 3 01:26:03 2024 -0400
+| | 
+| |     Update the conflict
+| | 
+| * commit 284d3420f3462927a80e62c06cb19e9ce91285cb
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Wed Apr 3 01:25:02 2024 -0400
+| | 
+| |     Create new conflict
+| | 
+* | commit 307e6373634542aa3231a2700bad619c932f4962
+|/  Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+|   Date:   Wed Apr 3 01:25:31 2024 -0400
+|   
+|       Create merge conflict
+| 
+* commit 2cd618ff8a0d7cf1d324eb7f409575b94b3aba26
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 01:24:04 2024 -0400
+| 
+|     Update file
+| 
+* commit cd76463f1d0c91d2e68cb35b1e90138c48f94fd7
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 01:23:15 2024 -0400
+| 
+|     Add first commit
+| 
+* commit 2ed0177fec42ad97f30f03028d803fa1fc0cb7bf
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 01:22:15 2024 -0400
+| 
+|     Remove l11
+| 
+* commit f4418f84074d37232f4fe80dae98f4541ab0f5f6
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 01:04:48 2024 -0400
+| 
+|     Add first commit
+| 
+* commit d1afa17b06af1c8e29602b8ca5fe80c637c1421a
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 01:03:53 2024 -0400
+| 
+|     Remove lab 11
+| 
+* commit 02f0cc168d95c62c06d6fe1754ed0c75df608ecd
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 01:00:42 2024 -0400
+| 
+|     Add second commit
+| 
+* commit 77c33fcbc7aa94f4d0efe3ea3f215dda3bfd5416
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 00:59:36 2024 -0400
+| 
+|     Add first commit
+| 
+* commit de931c7034e0b0fbb3806bd8a43322f1964171c4
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 00:58:06 2024 -0400
+| 
+|     Remove lab 11
+|   
+*   commit 85682afefe3caa2d2461e0372ec39ab4055fded1
+|\  Merge: 97c72e6 9d83e1c
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Wed Apr 3 00:55:57 2024 -0400
+| | 
+| |     Merge branch 'force-conflict'
+| | 
+| * commit 9d83e1cd2010761ebc8be54011ed8111a39b1006
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Wed Apr 3 00:51:50 2024 -0400
+| | 
+| |     Add a new line
+| | 
+* | commit 97c72e6396252e7fe83a89d5bb54b7e719d879a4
+|/  Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+|   Date:   Wed Apr 3 00:54:50 2024 -0400
+|   
+|       Reset head
+| 
+* commit 2f5b37002b40b8a124d8da3f0f4bfbd968caef72
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 00:49:55 2024 -0400
+| 
+|     Add lab 11
+| 
+* commit d27b971f23c18f1b2fd49e4cd5eb72a1c867656b
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Apr 3 00:47:51 2024 -0400
+| 
+|     Add lab 10
+| 
+* commit 421025370f646444e7ec05b603286111bf3094ee
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Mon Mar 25 23:36:34 2024 -0400
+| 
+|     Add assignment 5
+| 
+* commit 9e96bb42ff83499cd195f880803b06598170fbb7
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Mar 20 03:44:18 2024 -0400
+| 
+|     Add l09
+| 
+* commit 9a9e64046753b67c4fa5ea8b9833277c53eb00ea
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Mar 13 04:38:18 2024 -0400
+| 
+|     Add l08
+| 
+* commit bfb17517082ba630d4f5d18492c1fe8aec5e7aef
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Mon Mar 11 22:46:00 2024 -0400
+| 
+|     Update a04
+| 
+* commit 4eafbf47e5fa909f0aef543fb044a93a7a7f1aef
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Mon Mar 11 22:37:53 2024 -0400
+| 
+|     Update q1
+| 
+* commit b24fd6ccbcdca0250de24846f7836f59cd44ae59
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Mon Mar 11 22:19:09 2024 -0400
+| 
+|     Update q1
+| 
+* commit 156ea8034496ab57c390e99f75354f2754c080bd
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Thu Feb 29 04:33:33 2024 -0500
+| 
+|     Update a04
+| 
+* commit 1067f453e560ebd125185bc20ffdb0d4ae331dad
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Thu Feb 29 04:31:37 2024 -0500
+| 
+|     Add a04
+| 
+* commit 194b506c3752c3323d11de1dd49e1275b2c9b48e
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Feb 28 02:05:27 2024 -0500
+| 
+|     Add lab06
+| 
+* commit dcf5fec59b7f6ce8a9997dab00023611ea9352e6
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Mon Feb 19 01:22:41 2024 -0500
+| 
+|     Update a03
+| 
+* commit 3fb354735069a6d1ae18f6345e48172d72a4a01d
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Feb 14 04:05:29 2024 -0500
+| 
+|     Update a3
+| 
+* commit 8901378171ef54234fa25cd08d8fc5d7692000dd
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Feb 14 03:46:12 2024 -0500
+| 
+|     Add boiler a03
+| 
+* commit 371a82d1bdf15baa00668628d8c912e59adeab42
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Tue Feb 13 21:56:01 2024 -0500
+| 
+|     Update shell
+|   
+*   commit cad7712d3daf84eaf3a12ccd2d89a923f9eebbf3
+|\  Merge: 6d2c325 825fefb
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Tue Feb 13 21:55:16 2024 -0500
+| | 
+| |     Merge branch 'main' of https://github.com/aidantrabs/SystemProgramming
+| | 
+| * commit 825fefbb81e68af1dfc94136b2b1e81bc4527bec
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Mon Feb 12 23:19:17 2024 -0500
+| | 
+| |     Update assignment 2
+| | 
+| * commit fb38fd4f06df08e6163973ff16bb21414ba8b528
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Mon Feb 12 23:15:36 2024 -0500
+| | 
+| |     Update assignment 2
+| | 
+| * commit 2d05b2d0ba16da9a1b6597d7821d15d2567dcfa0
+| | Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| | Date:   Mon Feb 12 14:26:39 2024 -0500
+| | 
+| |     Finalize word count
+| | 
+* | commit 6d2c3252404e3ca3990930b08efa7c53cf413932
+|/  Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+|   Date:   Tue Feb 13 21:48:56 2024 -0500
+|   
+|       Add lab 5
+| 
+* commit e478ac4d8772b0ded229f809fb94066b85e5145e
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Fri Feb 9 14:18:59 2024 -0500
+| 
+|     Update assignment 2
+| 
+* commit 6a61c0d3381dd66cd7debee93e67275b19a60d6a
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Feb 7 05:58:08 2024 -0500
+| 
+|     Add lab 4
+| 
+* commit 85721a695c12d2854cf0736ab708939b87ff4781
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Feb 7 05:58:00 2024 -0500
+| 
+|     Refactor
+| 
+* commit 7ee85c0990e3df41100529c485673423cbe4b164
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Tue Jan 30 00:35:30 2024 -0500
+| 
+|     Add assignment 2 boilerplate
+| 
+* commit 740118c14d5f76a520561a357fb4fb2c7e3caeed
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Tue Jan 30 00:35:15 2024 -0500
+| 
+|     Add gitignore
+| 
+* commit 0dfc2296f3210af98038b560e03db4e397d6670c
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Fri Jan 26 20:36:27 2024 -0500
+| 
+|     Update file structure
+| 
+* commit 6f4ca0bc7e7dc7000e3b4a88dc5a3f543b7a8c47
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Jan 24 14:39:31 2024 -0500
+| 
+|     Add lab 2
+| 
+* commit 4712474f4f5c108f5649bc7c4c5bc70817ed727a
+| Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+| Date:   Wed Jan 17 18:21:17 2024 -0500
+| 
+|     Add lab 1
+| 
+* commit 43d4efcff14e8774292fc61d32890bdd1db5fa26
+  Author: Aidan Traboulay <aidantraboulay13@gmail.com>
+  Date:   Wed Jan 17 18:09:27 2024 -0500
+  
+      Add README
